@@ -12,8 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/crowdriff/crowdriff-story-network-gallery-react.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "React",
+    "CrowdRiff",
+    "Gallery",
+    "Story-Network"
+  ],
+  "author": "CrowdRiff",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/crowdriff/crowdriff-story-network-gallery-react/issues"
