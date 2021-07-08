@@ -4,9 +4,8 @@ const CrowdriffStoryGallery = (props) => {
   const { galleryId } = props;
   useEffect(() => {
     // set the script source based on environment
-    const baseScriptUrl = process.env.ENV === 'production' ? 'https://g.amp.travel' : 'https://g.storygraph.ai';
     // The script to load story galleries in the current page DOM.
-    const galleryLoadScript = `${baseScriptUrl}/v2/js`;
+    const galleryLoadScript = 'https://g.amp.travel/v2/js';
     // variable to see if the script has already been appended to the page.
     const existingScript = document.getElementById('cr__init-JS');
     // If the existingScript variable is true, do not continue to execute the useEffect, return.
@@ -32,7 +31,7 @@ const CrowdriffStoryGallery = (props) => {
     return () => {
       // If the element variable 'e' exists, remove the element from the dom.
       // This will allow the script to rerun on route changes on React sites.
-      if (typeof e !== 'undefined') {
+      if (e) {
         e.remove();
       }
     };

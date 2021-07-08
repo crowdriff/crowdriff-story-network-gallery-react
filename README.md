@@ -1,6 +1,7 @@
 
 # CrowdRiff Story Network Gallery React
 ![npm](https://img.shields.io/npm/v/crowdriff-story-network-gallery-react) ![npm bundle size](https://img.shields.io/bundlephobia/min/crowdriff-story-network-gallery-react)
+
 A lightweight component that allows CrowdRiff customers to embed Story Network galleries on websites built using React.
 
 ## Getting Started
