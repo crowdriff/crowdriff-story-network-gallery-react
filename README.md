@@ -23,17 +23,17 @@ npm install crowdriff-story-network-gallery-react
 
 ## Usage
 
-To embed one (or many) galleries, import the `CrowdriffStoryGallery` component, and pass the galleryId as a prop.
+To embed one (or many) galleries, import the `CrowdRiffStoryGallery` component, and pass the galleryId as a prop.
 
 ```
 import  React  from  'react';
-import  CrowdriffStoryGallery  from  'crowdriff-story-network-gallery-react'
+import  CrowdRiffStoryGallery  from  'crowdriff-story-network-gallery-react'
 export  const  Home  =  ()  =>  {
 
 return  (
 	<div>
-		<CrowdriffStoryGallery  galleryId="1234-5678"  />
-		<CrowdriffStoryGallery  galleryId="8765-4321"  />
+		<CrowdRiffStoryGallery  galleryId="1234-5678"  />
+		<CrowdRiffStoryGallery  galleryId="8765-4321"  />
 	</div>
 	);
 }
