@@ -1,6 +1,6 @@
 {
   "name": "crowdriff-story-network-gallery-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Component that allows the embedding of a CrowdRiff Story Network gallery in a React app",
   "main": "./lib/index.js",
   "scripts": {
