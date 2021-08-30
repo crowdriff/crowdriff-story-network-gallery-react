@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const CrowdriffStoryGallery = (props) => {
+const CrowdRiffStoryGallery = (props) => {
   const { galleryId } = props;
   useEffect(() => {
     // set the script source based on environment
@@ -44,4 +44,4 @@ const CrowdriffStoryGallery = (props) => {
     />
   );
 };
-export default CrowdriffStoryGallery;
+export default CrowdRiffStoryGallery;
